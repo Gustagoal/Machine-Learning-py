@@ -15,3 +15,5 @@ cursor.execute("Select * from locais")
 
 resultado = cursor.fetchall()
 
+for locais in resultado:
+    print(locais[1])
